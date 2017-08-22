@@ -18,6 +18,7 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "experimentalDecorators": true,
+    "downlevelIteration": true,
     "pretty": true,
     "lib": [
       "dom",

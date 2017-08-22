@@ -8,14 +8,15 @@
   },
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-error-overlay": "^1.0.10"
   },
   "devDependencies": {
-    "@types/node": "^7.0.18",
-    "@types/react": "^15.0.24",
-    "@types/react-dom": "^15.5.0",
-    "fuse-box": "^2.0.0",
-    "ts-node": "^3.0.4",
-    "typescript": "^2.3.2"
+    "@types/node": "^8.0.24",
+    "@types/react": "^16.0.3",
+    "@types/react-dom": "^15.5.4",
+    "fuse-box": "^2.2.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2"
   }
 }
