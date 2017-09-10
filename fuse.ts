@@ -8,7 +8,9 @@ let fuse = new FuseBox({
     SVGPlugin(),
     CSSPlugin(),
     WebIndexPlugin({template: './src/index.html'})
-  ]
+  ],
+  useJsNext: ["babel-runtime"],
+  polyfillNonStandardDefaultUsage : true,
 });
 
 fuse.dev();
